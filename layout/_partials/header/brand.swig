@@ -2,7 +2,7 @@
   <div class="site-meta{% if theme.custom_logo.enabled %} custom-logo{% endif %}">
     {% if theme.custom_logo.enabled and theme.custom_logo.image and theme.scheme === 'Muse' %}
       <div class="site-meta-headline">
-        <a>
+        <a href="/">
           <img class="custom-logo-image" src="{{ theme.custom_logo.image }}" alt="{{ title }}"/>
         </a>
       </div>
